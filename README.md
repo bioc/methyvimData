@@ -3,6 +3,8 @@
 > Example experimental data package for use with
 > [R/`methyvim`](https://github.com/nhejazi/methyvim)
 
+[![Travis-CI Build Status](https://travis-ci.org/nhejazi/methyvimData.svg?branch=master)](https://travis-ci.org/nhejazi/methyvimData)
+
 ---
 
 ## License
