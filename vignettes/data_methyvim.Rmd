@@ -4,7 +4,6 @@ author: "Nima Hejazi"
 date: "`r Sys.Date()`"
 output:
   BiocStyle::html_document
-bibliography: vignette-refs.bib
 vignette: >
   %\VignetteIndexEntry{Anatomy of the `methyvimData` package}
   %\VignetteEngine{knitr::rmarkdown}
@@ -31,6 +30,8 @@ suppressPackageStartupMessages(minfi)
 This package contains a single data set. The data object is of class
 `GenomicRatioSet`, an extension of the `SummarizedExperiment` container class
 provided by the package `minfi`.
+
+We can load and view the data set like so
 
 ```{r load-data}
 library(methyvimData)
