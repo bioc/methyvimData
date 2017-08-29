@@ -1,6 +1,6 @@
 Package: methyvimData
 Title: Example experimental data for use with the methyvim package
-Version: 0.99.2
+Version: 0.99.3
 Authors@R: person(
   "Nima", "Hejazi", email = "nhejazi@berkeley.edu",
   role = c("aut", "cre")
@@ -14,6 +14,7 @@ Suggests: Biobase, SummarizedExperiment, minfi
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
+VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 biocViews:
   Clustering,
