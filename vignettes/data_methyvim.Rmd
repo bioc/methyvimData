@@ -1,0 +1,40 @@
+---
+title: "Anatomy of the `methyvimData` package"
+author: "Nima Hejazi"
+date: "`r Sys.Date()`"
+output:
+  BiocStyle::html_document
+bibliography: vignette-refs.bib
+vignette: >
+  %\VignetteIndexEntry{Anatomy of the `methyvimData` package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Introduction
+
+This package is designed to accompany the `methyvim` analysis package by
+providing example data for use with the statistical routines made available in
+that package. Generally speaking, this package will likely be useless to you
+without the `methyvim` package. Please consider consulting the vignettes that
+accompany `methyvim`.
+
+---
+
+## Data
+
+```{r deps, echo=FALSE}
+suppressPackageStartupMessages(SummarizedExperiment)
+suppressPackageStartupMessages(minfi)
+```
+
+This package contains a single data set. The data object is of class
+`GenomicRatioSet`, an extension of the `SummarizedExperiment` container class
+provided by the package `minfi`.
+
+```{r load-data}
+library(methyvimData)
+data(grsExample)
+grsExample
+```
+

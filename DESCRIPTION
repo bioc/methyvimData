@@ -1,6 +1,6 @@
 Package: methyvimData
 Title: Example experimental data for use with the methyvim package
-Version: 0.9.0
+Version: 0.99.1
 Authors@R: person("Nima", "Hejazi", email = "nhejazi@berkeley.edu",
                   role = c("aut", "cre"))
 Description: Contains a reduced set of simulated data inspired by data produced
@@ -13,3 +13,10 @@ License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+biocViews:
+  Clustering,
+  DNAMethylation,
+  DifferentialMethylation,
+  MethylationArray,
+  MethylSeq
+
