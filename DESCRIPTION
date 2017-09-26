@@ -1,6 +1,6 @@
 Package: methyvimData
 Title: Example experimental data for use with the methyvim package
-Version: 0.99.4
+Version: 0.99.5
 Authors@R: person(
   "Nima", "Hejazi", email = "nhejazi@berkeley.edu",
   role = c("aut", "cre")
@@ -10,12 +10,12 @@ Description: Contains a reduced set of simulated data inspired by data produced
   available to highlight many of the key procedures that are available within
   the core functions of the methyvim package.
 Depends:
-  R (>= 3.4.0)
+  R (>= 3.4.0),
+  minfi
 Suggests:
   Biobase,
   BiocStyle,
   SummarizedExperiment,
-  minfi,
   knitr,
   rmarkdown
 License: file LICENSE
