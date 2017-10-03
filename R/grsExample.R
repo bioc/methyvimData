@@ -21,6 +21,15 @@
 #'
 #' @return A \code{GenomicRatioSet} containing pre-filtered CpG sites, ready to
 #'         be used with the core function of the \code{methyvim} package.
+#'
+#' @examples
+#' # Load required packages and the data set
+#' suppressMessages(library(SummarizedExperiment))
+#' data(grsExample)
+#' # Take a look at the data in the GenomicRatioSet object
+#' grsExample
+#' # Extract treatment/exposure values with colData
+#' as.numeric(colData(grsExample)[, 1])
 #
 "grsExample"
 
