@@ -33,4 +33,13 @@ found in epigenomics studies.
   investigation. Please note that THIS IS NOT REAL DATA.
 }
 }
+\examples{
+# Load required packages and the data set
+suppressMessages(library(SummarizedExperiment))
+data(grsExample)
+# Take a look at the data in the GenomicRatioSet object
+grsExample
+# Extract treatment/exposure values with colData
+as.numeric(colData(grsExample)[, 1])
+}
 \keyword{datasets}
