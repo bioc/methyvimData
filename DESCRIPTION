@@ -1,6 +1,6 @@
 Package: methyvimData
 Title: Example experimental data for use with the methyvim package
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: person(
   "Nima", "Hejazi", email = "nhejazi@berkeley.edu",
   role = c("aut", "cre")
